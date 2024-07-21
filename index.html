@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth m-0 p-0 box-border overflow-x-hidden">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nike/Vivek</title>
+  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black">
+    
+    <!-- navbar -->
+<div class="hidden lg:block">
+    <div class="flex flex-wrap place-items-center w-full">
+      <section class="relative w-full">
+          <!-- navbar -->
+        <nav class="flex justify-between bg-gradient-to-r from-slate-900 to-slate-700 text-white w-full px-4 py-2">
+          <div class="px-5 xl:px-12 py-6 flex w-full items-center">
+            <a class="text-3xl font-bold font-heading" href="https://www.nike.com/in/" target="_blank">
+              <!-- <img class="h-9" src="logo.png" alt="logo"> -->
+             <div class="w-20 h-8"><img src="https://seeklogo.com/images/N/Nike-logo-DD910D27E8-seeklogo.com.png" alt=""></div>
+            </a>
+            <!-- Nav Links -->
+            <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
+              <li><a class="hover:text-gray-200" href="#featured">New and Featured</a></li>
+              <li><a class="hover:text-gray-200" href="#men">Men</a></li>
+              <li><a class="hover:text-gray-200" href="#women">Women</a></li>
+              <li><a class="hover:text-gray-200" href="#about-us">About</a></li>
+            </ul>
+            <!-- Header Icons -->
+            <div class="hidden xl:flex items-center space-x-5 ">
+              <a class="hover:text-gray-200" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+              </a>
+              <a class="flex items-center hover:text-gray-200" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                <span class="flex absolute -mt-5 ml-4">
+                  <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-pink-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-3 w-3 bg-pink-500">
+                    </span>
+                  </span>
+              </a>
+              <!-- Sign In / Register      -->
+              <a class="flex items-center hover:text-gray-200" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+              </a>
+              
+            </div>
+          </div>
+          <!-- Responsive navbar -->
+          <a class="xl:hidden flex mr-6 items-center" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+            <span class="flex absolute -mt-5 ml-4">
+              <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-pink-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-3 w-3 bg-pink-500">
+              </span>
+            </span>
+          </a>
+          <a class="navbar-burger self-center mr-12 xl:hidden" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+          </a>
+        </nav>
+      </section>
+    </div>
+  </div>
+  
+
+
+
+ <!-- hero section -->
+<section class="w-full flex xl:flex-row flex-col justify-start min-h-screen gap-10"><div class="relative xl:w-2/5 flex flex-col justify-center items-start w-full pt-28"><p class="text-red-300 font-mono text-2xl pl-3 -translate-y-14">Our Summer Collection</p>
+<h1 class="text-white mt-10 text-8xl font-bold pl-2 -translate-y-14"><span class="xl:whitespace-nowrap relative z-10 pr-10 ">The New Arrival</span><br>
+<span class="inline-block mt-3 text-red-400">Nike</span>
+Shoes
+</h1>
+<p class="text-slate-400 text-lg leading-8 mt-6 mb-14 sm:max-w-sm pl-3 font-mono -translate-y-14">Discover stylish Nike arrivals, quality comfort and innovation for your active life.</p>
+
+<a href="https://www.nike.com/in/" target="_blank"><button class="bg-red-950 text-red-400 border border-red-400 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group -translate-y-24 translate-x-4">
+  <span class="bg-red-400 shadow-red-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)] "></span>
+  Shop Now
+ 
+</button></a></div>
+
+<div class="relative flex flex-1 justify-center items-center -translate-y-10  "><img class="object-contain relative z-10 w-[36rem]" src="./images/red_shoe.png" alt="Shoes Collection"></div></section>
+
+
+<div class="flex justify-center items-center  w-full"><img class="rounded-xl w-80 md:w-[40rem]" src="./images/NIKE - By You.gif" alt="nike"></div>
+
+
+
+
+ <!-- products section -->
+  <div><h1 id="featured" class="text-orange-400 text-6xl lg:flex lg:justify-center font-mono  font-bold translate-x-16 translate-y-8 mt-24  text-center">Blueprint Pack</h1></div>
+  <div class="m-10  p-6 lg:flex lg:justify-center lg:flex-row flex flex-col items-center ">
+    <div  class="w-72 h-96 bg-gradient-to-r from-slate-900 to-slate-700 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 shadow-xl shadow-orange-500 hover:bg-gray-900 hover:shadow-2xl hover:shadow-red-500 transition-shadow lg:translate-x-20">
+    <div class="w-max h-max bg-red-300 rounded-2xl overflow-hidden">
+        <img class="w-64 h-44" src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8a9db44d-ee3b-42ab-88ea-2c48d37bc9ba/pegasus-41-blueprint-road-running-shoes-9ln3lK.png" alt="Nike shoes">
+        
+    </div>
+    <div class="">
+        <p class="font-extrabold text-orange-300 text-center text-xl">Nike Pegasus 41 </p>
+        <p class="text-slate-400 text-xs pt-2 text-center">Responsive cushioning in the Pegasus provides an energised ride for everyday road running. Experience lighter-weight energy return with dual Air Zoom units and a ReactX foam midsole.</p>
+    </div>
+</a>
+<div class=""><a href="https://www.nike.com/in/t/pegasus-41-blueprint-road-running-shoes-9ln3lK/HF0013-900" target="_blank"><button class="relative px-8 py-1 rounded-md bg-slate-300 isolation-auto z-10 border-2 border-red-400 ml-14 text-slate-800 font-bold translate-y-2
+before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-red-200 before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:text-red-700 font-mono">See More</button></a></div>
+  </div>
+  
+<div class="mt-20 mb-20">
+  <div class="w-72 h-96 bg-gradient-to-r from-slate-900 to-slate-700 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 shadow-xl shadow-orange-500 hover:bg-gray-900 hover:shadow-2xl hover:shadow-red-500 transition-shadow mt-20 md:mt-0 md:ml-36  ">
+    <div class="w-max h-max bg-sky-300 rounded-2xl overflow-hidden">
+        <img class="w-64 h-44" src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7c859cc5-133a-4c22-ad15-02dbb826f28e/alphafly-3-blueprint-road-racing-shoes-n5fmNS.png" alt="Nike Alphafly 3">
+    </div>
+    <div class="">
+        <p class="font-extrabold text-orange-300 text-center text-xl">Nike Alphafly 3</p>
+        <p class="text-slate-400 text-xs pt-1 text-center">The Alphafly 3 helps push you beyond what you thought possible. Three innovative technologies power your run: engineered to the exact specifications of championship athletes, a double dose of Air Zoom units helps launch you into your next step.</p>
+    </div>
+
+    <a href="https://www.nike.com/in/t/alphafly-3-blueprint-road-racing-shoes-n5fmNS/HF7356-900" target="_blank"><button class="relative px-8 py-1 rounded-md bg-slate-300 isolation-auto z-10 border-2 border-red-400 ml-14 text-slate-800 font-bold 
+before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-red-300 before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:text-red-700 font-mono ">See More</button></a>
+
+  </div>
+</div>
+
+  <div class="w-72 h-96 bg-gradient-to-r from-slate-900 to-slate-700 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 shadow-xl shadow-orange-500 hover:bg-gray-900 hover:shadow-2xl hover:shadow-red-400 transition-shadow mt-20 md:mt-0 md:ml-36  md:-translate-x-20">
+    <div class="w-max h-max bg-sky-300 rounded-2xl overflow-hidden">
+        <img class="w-64 h-44" src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6c73ece1-e830-4b9a-b198-c74789da25e8/mercurial-superfly-10-elite-blueprint-fg-high-top-football-boot-bw1xLJ.png" alt="Nike shoes">
+    </div>
+    <div class="">
+        <p class="font-extrabold text-orange-300 text-center text-xl">Nike Mercurial Superfly</p>
+        <p class="text-slate-400 text-xs pt-2 text-center">Obsessed with speed? We engineered the Air Zoom unit in the Superfly 10 Elite to the exact specifications of championship athletes. It gives you the propulsive feel you need to break through the back line. The result is the most responsive Mercurial we've ever made.</p>
+    </div>
+    <a href="https://www.nike.com/in/t/mercurial-superfly-10-elite-blueprint-fg-high-top-football-boot-bw1xLJ/HJ9293-100" target="_blank"><button class="relative px-8 py-1 rounded-md bg-slate-300 isolation-auto z-10 border-2 border-red-400 ml-14 text-slate-800 font-bold 
+    before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-red-300 before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 hover:text-red-700 font-mono">See More</button></a>
+  </div>
+  
+  
+</div>
+
+<!-- men section -->
+
+
+<div class="text-white text-4xl flex justify-center font-bold mt-32 translate-x-10 "><h1 class="shadow-lg shadow-orange-600 rounded-3xl p-5 font-mono text-center">Our Products</h1></div>
+
+<div id="men" class="text-[#CEAB93] text-5xl flex justify-center translate-x-5 font-semibold mt-10 translate-y-5 "><h2 class="shadow-lg shadow-amber-200 p-5 rounded-xl font-mono ">Men</h2></div>
+
+<!-- cards -->
+ <!-- 1st row men -->
+<a href="https://www.flipkart.com/nike-legend-essential-2-training-gym-shoes-men/p/itm6bed528b1145a" target="_blank"><div class="lg:flex lg:justify-center lg:flex-row flex flex-col items-center lg:-translate-x-8">
+<div class="relative flex w-60  flex-col rounded-xl bg-gradient-to-r from-amber-200 to-amber-600 bg-clip-border text-gray-700 shadow-xl translate-y-20 ml-14 mb-20 shadow-slate-50">
+  <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+    <img src="./images/shoe4.svg" alt="">
+  </div>
+  <div class="p-6">
+    <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-slate-900  antialiased text-center">
+     Nike Legend Essentials 2
+    </h5>
+    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+     
+    </p>
+  </div>
+</a>
+</div>
+
+<a href="https://www.nike.com/in/t/air-max-dn-se-shoes-MZ6hPZ/HM0810-401" target="_blank"><div class="relative flex w-60  flex-col rounded-xl bg-gradient-to-r from-amber-200 to-amber-600  bg-clip-border text-gray-700 shadow-xl shadow-slate-50 translate-y-20 ml-14 mb-20">
+  <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-xl shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+    <img class="-translate-y-14" src="./images/air-max-dn-se-shoes-MZ6hPZ.png" alt="">
+  </div>
+  <div class="p-6">
+    <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-slate-900  antialiased text-center">
+      Nike Air Max Dn SE
+    </h5>
+    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+     
+    </p>
+  </div>
+</a>
+</div>
+
+<a href="https://www.nike.com/ca/t/md-runner-2-shoes-PATZpBgm" target="_blank"><div class="relative flex w-60  flex-col rounded-xl bg-gradient-to-r from-amber-200 to-amber-600 bg-clip-border text-gray-700 shadow-xl shadow-slate-50 translate-y-20 ml-14 mb-20">
+  <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+    <img src="./images/shoe6.svg" alt="">
+  </div>
+  <div class="p-6">
+    <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-slate-900  antialiased text-center">
+     Nike Md Runner 2
+    </h5>
+    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+     
+    </p>
+  </div>
+</a>
+</div>
+</div>
+
+
+<!-- 2nd row men -->
+
+<div class="lg:flex lg:justify-center flex flex-col items-center lg:-translate-x-10 mb-36 lg:flex-row">
+<a href="https://www.nike.com/in/t/full-force-low-shoes-w2MKmW" target="_blank"><div class="relative flex w-60  flex-col rounded-xl bg-gradient-to-r from-amber-200 to-amber-600  bg-clip-border text-gray-700 shadow-xl shadow-indigo-400 translate-y-20 ml-14 mb-20">
+  <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+    <img class="-translate-y-14" src="./images/full-force-low-shoes-w2MKmW.png" alt="">
+  </div>
+  <div class="p-6">
+    <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-slate-900  antialiased text-center">
+      Nike Full Force Low
+    </h5>
+    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+    </p>
+  </div>
+</a>
+</div>
+
+<a href="https://www.nike.com/in/t/air-max-1-essential-shoes-Vz0BS9/FZ5808-001" target="_blank"><div class="relative flex w-60  flex-col rounded-xl bg-gradient-to-r from-amber-200 to-amber-600 bg-clip-border text-gray-700 shadow-xl shadow-indigo-400 translate-y-20 ml-14 mb-20">
+  <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+    <img class="-translate-y-14" src="./images/air-max-1-essential-shoes-Vz0BS9.png" alt="">
+  </div>
+  <div class="p-6">
+    <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-slate-900  antialiased text-center">
+      Nike Air Max 1 Essential
+    </h5>
+    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+     
+    </p>
+  </div>
+</a>
+</div>
+
+<a href="https://www.nike.com/in/t/dunk-low-retro-shoe-66RGqF" target="_blank"><div class="relative flex w-60  flex-col rounded-xl bg-gradient-to-r from-amber-200 to-amber-600 bg-clip-border text-gray-700 shadow-xl shadow-indigo-400 translate-y-20 ml-14 mb-20">
+  <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+    <img class="-translate-y-14" src="./images/dunk-low-retro-shoe-66RGqF.png" alt="">
+  </div>
+  <div class="p-6">
+    <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-slate-900  antialiased text-center">
+      Nike Dunk Low Retro
+    </h5>
+    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+     
+    </p>
+  </div>
+</a>
+</div>
+
+<a href="https://www.nike.com/in/t/zoom-vomero-5-shoes-71qvRt/FN8361-100" target="_blank"><div class="relative flex w-60  flex-col rounded-xl bg-gradient-to-r from-amber-200 to-amber-600 bg-clip-border text-gray-700 shadow-xl shadow-indigo-400 translate-y-20 ml-14 mb-20">
+  <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+    <img class="-translate-y-14" src="./images/zoom-vomero-5-shoes-71qvRt.png" alt="">
+  </div>
+  <div class="p-6">
+    <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-slate-900  antialiased text-center">
+      Nike Zoom Vomero 5
+    </h5>
+    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+     
+    </p>
+  </div>
+</a>
+</div>
+</div>
+
+<!-- women -->
+
+
+<div id="women" class="text-[#FF9494] text-5xl flex justify-center translate-x-5 font-semibold mt-10 translate-y-5 "><h1 class="shadow-lg shadow-red-500 p-5 rounded-xl mb-16 font-mono ">Women</h1></div>
+
+<div class="lg:flex lg:justify-center lg:flex-row flex flex-col items-center lg:-translate-x-10 mb-14">
+<a href="https://www.nike.com/in/t/air-max-sc-trend-shoes-5b5HTB" target="_blank"><div class="relative flex w-60  flex-col rounded-xl bg-gradient-to-r from-violet-200 to-pink-200  bg-clip-border text-gray-700 shadow-xl shadow-pink-400 translate-y-20 ml-14 mb-20">
+  <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+    <img class="-translate-y-14" src="./images/air-max-sc-trend-shoes-5b5HTB.png" alt="">
+  </div>
+  <div class="p-6">
+    <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-slate-900  antialiased text-center">
+      Nike Air Max SC Trend
+    </h5>
+    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+    </p>
+  </div>
+</a>
+</div>
+
+<a href="https://www.nike.com/ph/t/air-jordan-1-low-se-shoes-thpSD9" target="_blank"><div class="relative flex w-60  flex-col rounded-xl bg-gradient-to-r from-violet-200 to-pink-200  bg-clip-border text-gray-700 shadow-xl shadow-pink-400 translate-y-20 ml-14 mb-20">
+  <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+    <img class="-translate-y-14" src="./images/air-jordan-1-low-se-shoes-thpSD9-Photoroom.png" alt="">
+  </div>
+  <div class="p-6">
+    <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-slate-900  antialiased text-center">
+      Air Jordan 1 Low SE
+    </h5>
+    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+    </p>
+  </div>
+</div>
+</a>
+
+<a href="https://www.nike.com/in/t/sb-force-58-skate-shoes-LJNW5L" target="_blank"><div class="relative flex w-60  flex-col rounded-xl bg-gradient-to-r from-violet-200 to-pink-200  bg-clip-border text-gray-700 shadow-xl shadow-pink-400 translate-y-20 ml-14 mb-20">
+  <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+    <img class="-translate-y-14" src="./images/sb-force-58-skate-shoes-LJNW5L.png" alt="">
+  </div>
+  <div class="p-6">
+    <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-slate-900  antialiased text-center">
+      Nike SB Force 58
+    </h5>
+    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+    </p>
+  </div>
+</a>
+</div>
+</div>
+
+<!-- 2nd row women -->
+<div class=" flex flex-col items-center lg:flex-row lg:flex lg:justify-center  lg:-translate-x-10 mb-36 ">
+
+  <a href="https://www.nike.com/in/t/wio-11-road-running-shoes-lnpWld/FJ9510-800" target="_blank"><div class="relative flex w-60  flex-col rounded-xl bg-gradient-to-r from-violet-200 to-pink-200  bg-clip-border text-gray-700 shadow-xl shadow-pink-400 translate-y-20 ml-14 mb-20">
+    <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+      <img class="-translate-y-14" src="./images/wio-11-road-running-shoes-lnpWld.png" alt="">
+    </div>
+    <div class="p-6">
+      <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-slate-900  antialiased text-center">
+        Nike Winflo 11
+      </h5>
+      <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+      </p>
+    </div>
+  </a>
+  </div>
+
+  <a href="https://www.nike.com/in/launch/t/air-jordan-1-high-og-first-in-flight" target="_blank"><div class="relative flex w-60  flex-col rounded-xl bg-gradient-to-r from-violet-200 to-pink-200  bg-clip-border text-gray-700 shadow-xl shadow-pink-400 translate-y-20 ml-14 mb-20">
+    <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+      <img class="-translate-y-10" src="./images/air-jordan-1-high-og-first-in-flight-fd2596-400-release-date.jpg" alt="">
+    </div>
+    <div class="p-6">
+      <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-slate-900  antialiased text-center">
+        Air Jordan 1 High OG First In Flight
+      </h5>
+      <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+      </p>
+    </div>
+  </a>
+  </div>
+
+
+  <a href="https://www.nike.com/in/t/dunk-low-twist-shoes-V6NqFG" target="_blank"><div class="relative flex w-60  flex-col rounded-xl bg-gradient-to-r from-violet-200 to-pink-200  bg-clip-border text-gray-700 shadow-xl shadow-pink-400 translate-y-20 ml-14 mb-20">
+    <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+      <img class="-translate-y-14" src="./images/dunk-low-twist-shoes-V6NqFG.png" alt="">
+    </div>
+    <div class="p-6">
+      <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-slate-900  antialiased text-center">
+        Nike Dunk Low Twist
+      </h5>
+      <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+      </p>
+    </div>
+  </a>
+  </div>
+
+
+ <a href="https://www.nike.com/in/t/air-force-1-wild-shoes-FCjQ2C/FB2348-500" target="_blank"> <div class="relative flex w-60  flex-col rounded-xl bg-gradient-to-r from-violet-200 to-pink-200  bg-clip-border text-gray-700 shadow-xl shadow-pink-400 translate-y-20 ml-14 mb-20">
+    <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+      <img class="-translate-y-14" src="./images/air-force-1-wild-shoes-FCjQ2C.jpeg" alt="">
+    </div>
+    <div class="p-6">
+      <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-slate-900  antialiased text-center">
+        Nike Air Force 1 Wild
+      </h5>
+      <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+      </p>
+    </div>
+  </a>
+  </div>
+
+
+
+
+</div>
+
+<!-- super quality -->
+<section id="about-us" class="flex justify-between items-center max-lg:flex-col gap-10 w-full ">
+<div class="flex flex-1 flex-col">
+  
+<h2 class="text-white mt-36 text-4xl font-bold capitalize lg:max-w-lg pl-2 -translate-y-14 ml-16">We Provide You
+<span class="text-red-400">Super</span>
+<span class="text-red-400">Quality</span> Shoes
+</h2>
+<p class="text-slate-400 text-lg leading-7 mt-6 mb-14 sm:max-w-sm pl-3 font-mono -translate-y-14 ml-16">Ensuring premium comfort and style, out meticulously crafted footwear is designed to elevate your experience, providing you with unmatched quality, innovation and a touch of elegance. <br> Our dedication to detail and excellence ensures your satisfaction.</p>
+
+
+</div>
+
+<div class=" flex flex-1 justify-center items-center -translate-y-20 "><img class="object-contain relative z-10 w-[24rem] md:-translate-x-20 md:mt-10 " src="./images/shoe8.svg" alt="Shoes Collection"></div>
+
+</section>
+
+
+
+<!-- special offer section -->
+
+ <section class="flex flex-wrap items-center max-xl:flex-col-reverse gap-10 lg:mt-12 mb-36">
+  <div class="flex-1">
+    <img src="./images/offer.svg" alt="" class="pl-20 object-contain w-[650px] -translate-y-14
+    lg:translate-y-14" >
+ </div>
+
+ <div class="flex flex-1 flex-col">
+  
+  <h2 class="text-white mt-36 text-4xl font-bold capitalize lg:max-w-lg pl-2 -translate-y-14 ml-16 ">
+  <span class="text-red-400">Special</span>  Offer 
+  </h2>
+  <p class="text-slate-400 text-lg leading-7 mt-6 mb-14 sm:max-w-sm pl-3 font-mono -translate-y-14 ml-16">Embark on a shopping journey that redefines your experience with unbeatable deals. From premier selections to incredible savings, we offer unparalleled value that sets us apart. <br> Navigate a realm of possibilities designed to fulfill your unique desires, surpassing the loftiest expectations. Your journey with us is nothing short of exceptional.</p>
+
+  <!-- button -->
+
+  <div class=" flex flex-wrap gap-4 translate-x-20 -translate-y-10">
+    <a href="https://www.nike.com/in/w/sale-3yaep" target="_blank"><button
+  class="overflow-hidden relative w-32 p-2 h-12 bg-red-400 text-white border-none rounded-md text-xl font-bold cursor-pointer  z-10 group"
+>
+  View!
+  <span
+    class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
+  ></span>
+  <span
+    class="absolute w-36 h-32 -top-8 -left-2 bg-purple-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
+  ></span>
+  <span
+    class="absolute w-36 h-32 -top-8 -left-2 bg-purple-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"
+  ></span>
+  <span
+    class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-10 z-10"
+    >Sale!</span
+  >
+</button></a>
+
+  </div>
+  </div>
+</section>
+
+
+ <!-- footer -->
+
+
+
+<footer class=" dark:bg-gray-900">
+  <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <div class="md:flex md:justify-between">
+        <div class="mb-6 md:mb-0">
+            <a href="https://www.nike.com/in/" class="flex items-center">
+                <img src="https://seeklogo.com/images/N/Nike-logo-DD910D27E8-seeklogo.com.png" class="h-12 me-3" alt="Nike Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap text-slate-500"> Created by Vivek</span>
+            </a>
+        </div>
+        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <li class="mb-4">
+                        <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                    </li>
+                    <li>
+                        <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow Me</h2>
+                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <li class="mb-4">
+                        <a href="https://github.com/Vivek13121" class="hover:underline ">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/vivek131215" class="hover:underline">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <li class="mb-4">
+                        <a href="#" class="hover:underline">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <div class="sm:flex sm:items-center sm:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://github.com/Vivek13121" class="hover:underline">Vivek</a>. All Rights Reserved.
+        </span>
+        
+        </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>
