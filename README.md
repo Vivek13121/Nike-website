@@ -32,7 +32,12 @@ Welcome to the **Nike Landing Page** project! This project showcases a modern an
 
 4. **Men's Section:**
    - Highlights popular men's shoes with images and brief descriptions.
+   
+ ## Screenshot
 
+   - Hero Section showcasing the latest Nike arrivals.
+
+https://github.com/Vivek13121/Nike-website/blob/main/Nike%20website%20hero%20section.png
 
 ## Resources
 
